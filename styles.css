@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+ul{
+  list-style: none;
+}
+
+.logo-lg{
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #1F2041;
+}
+.logo-sm{
+  font-size: .5rem;
+}
+
+.container{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.hero-section{
+  display: flex;
+  flex-direction: column;
+   margin: 0 auto;
+  gap: 64px;
+  background-color: #FBF8CC;
+  padding-inline:9.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 3rem;
+  width:1440px;
+  max-width: 100%;
+  
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  
+}
+ 
+.nav-links{
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  gap: 64px;
+}
+.nav-links a:hover{
+  color: #4e5196;;
+}
+
+.social-media{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.title1,.title3{
+  font-weight: 600;
+}
+
+.title3,.title2{
+  max-width: 800px;
+}
+
+.title2{
+font-size: 2.3rem;
+font-weight: 900;
+color: #1F2041;
+margin-bottom: 0.5rem;
+}
+
+.hero-intro{
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.CTAs{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.resume{
+  border: none;
+  border-radius: 12px;
+  padding: 1.1rem 3rem;
+  background-color: #1F2041;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.resume:hover{
+  background-color: #4e5196;
+  cursor: pointer;
+}
+.contact{
+
+  color: #1F2041;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.contact:hover{
+  color: #4e5196;
+  cursor: pointer;
+}
+.projects-section{
+  background-color: #1F2041;
+  padding:3.5rem 9.5rem;
+  width:1440px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.projects-section h1{
+  font-size: 2.3rem;
+  color: #fff;
+}
+
+.projects{
+  display: flex;
+  gap: 24px;
+}
+
+.project{
+  width: 550px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.explore{
+  background-color: #FBF8CC;
+  padding: 1rem 3rem ;
+  border: none;
+  border-radius: 12px;
+  padding: 1.1rem 3rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
