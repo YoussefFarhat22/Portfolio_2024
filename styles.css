@@ -43,11 +43,11 @@ ul{
   display: flex;
   flex-direction: column;
   
-  gap: 32px;
+  gap: 12px;
  
   padding-inline:9.5rem;
   padding-top: 1.2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 16px;
   width:1440px;
   max-width: 100%;
   
@@ -106,7 +106,7 @@ ul{
 }
 
 .nav-links a:hover{
-  border-bottom:3px solid #4e5196;
+ color:#4e5196;
 }
 
 .social-media{
@@ -158,14 +158,50 @@ line-height: 1.2;
 }
 
 .projects-section{
+  display: flex;
+  flex-direction: column;
   
+  gap: 32px;
   padding-inline:9.5rem;
   
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
+}
+
+.project{
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.center{
+  margin: 0 auto;
+}
+.lp-1{
+  max-width: 500px;
+  min-height: 300px;
+  border-radius: 30px;
+}
+.project-details{
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+.demo{
+  padding: 1rem 2.5rem;
+  background-color: #1F2041;
+  max-width: 50%;
+  text-align: center;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+.demo:hover{
+  background-color: #4e5196;
+  cursor: pointer;
 }
 @media (max-width:560px){
   
-  .hero-section{
+  .hero-section,.projects-section{
     padding-inline:24px;
    }
 
@@ -222,9 +258,10 @@ line-height: 1.2;
     flex-direction: column-reverse;
   }
   .avatar{
-    width: 180px;
-    height: 180px;
+    max-width: 180px;
+    min-height: 180px;
   }
+ 
 }
 
 
