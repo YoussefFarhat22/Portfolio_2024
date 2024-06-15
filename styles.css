@@ -192,14 +192,14 @@ line-height: 1.2;
   align-items: center;
   gap: 70px;
   padding-inline:9.5rem;
-  margin-top: 80px;
+  margin-block: 80px;
   /* padding-bottom: 1rem; */
 }
 
 .project-container-parent{
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 50px;
   width: 100%;
 }
 
@@ -207,7 +207,7 @@ line-height: 1.2;
 
 .project-title{
   font-weight: bold;
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
 }
 
 
@@ -256,6 +256,7 @@ line-height: 1.2;
   justify-content: space-between;
   width: 100%;
 }
+
 .contact-me{
   padding-inline:9.5rem;
   display: flex;
@@ -267,7 +268,7 @@ line-height: 1.2;
   color: white;
 }
 
-.fa-linkedin,.fa-solid{
+.fa-linkedin,.fa-envelope{
   color: white;
 }
 
@@ -286,7 +287,7 @@ line-height: 1.2;
   display: flex;
   flex-direction: column;
   
-  color: white;
+  /* color: white; */
   gap: 15px;
 }
 
@@ -296,8 +297,18 @@ line-height: 1.2;
 
 @media (max-width:560px){
   
-  .hero-section,.projects-section,.skills{
+  .hero-section,.projects-section,.skills,.contact-me{
     padding-inline:24px;
+   }
+
+   .project-container1,.project-container2{
+    flex-wrap: wrap;
+   }
+
+ 
+
+   .avatar{
+    transform: rotate(0);
    }
 
    .ux{
@@ -305,8 +316,8 @@ line-height: 1.2;
    }
 
    .img{
-    width: 80vw;
-    height: 80vh;
+    width: 100%;
+   
    }
 
   .nav-links{
