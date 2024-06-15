@@ -305,8 +305,11 @@ line-height: 1.2;
     flex-wrap: wrap;
    }
 
+   /* .project-container2 img{
+    display: none;
+   } */
  
-
+ 
    .avatar{
     transform: rotate(0);
    }
@@ -345,6 +348,10 @@ line-height: 1.2;
 
   .social-media{
     display: none;
+  }
+
+  .fa-xmark{
+    position: fixed;
   }
 
   .close{
