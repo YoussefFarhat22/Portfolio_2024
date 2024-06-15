@@ -173,7 +173,7 @@ line-height: 1.2;
 
 .avatar{
   max-width: 350px;
- transform: rotate(-5deg);
+ /* transform: rotate(-5deg); */
   max-height: 350px;
   margin-left: 30px;
   
@@ -308,11 +308,11 @@ line-height: 1.2;
    /* .project-container2 img{
     display: none;
    } */
- 
+/*  
  
    .avatar{
     transform: rotate(0);
-   }
+   } */
 
    .ux{
     gap: 20px;
@@ -366,7 +366,7 @@ line-height: 1.2;
   }
 
   .resume{
-    padding: 1.1rem 2rem;
+    padding: 1.1rem 1.7rem;
     font-size: 1.2rem;
   }
 
