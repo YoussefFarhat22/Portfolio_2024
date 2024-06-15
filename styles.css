@@ -284,10 +284,15 @@ line-height: 1.2;
 
 .social{
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  
+  color: white;
   gap: 15px;
 }
 
+.social a {
+  color: white;
+}
 
 @media (max-width:560px){
   
