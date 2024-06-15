@@ -190,7 +190,7 @@ line-height: 1.2;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 70px;
   padding-inline:9.5rem;
   margin-top: 80px;
   /* padding-bottom: 1rem; */
@@ -203,6 +203,12 @@ line-height: 1.2;
   width: 100%;
 }
 
+
+
+.project-title{
+  font-weight: bold;
+  margin-bottom: 12px;
+}
 
 
 
@@ -229,9 +235,24 @@ line-height: 1.2;
   
 }
 
-.project-container{
+.project-details{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-container1{
   display: flex;
   align-items: center;
+  gap: 40px;
+  /* justify-content: space-between; */
+  width: 100%;
+}
+
+.project-container2{
+  display: flex;
+  align-items: center;
+  gap: 50px;
   justify-content: space-between;
   width: 100%;
 }
@@ -246,13 +267,25 @@ line-height: 1.2;
   color: white;
 }
 
-.fa-linkedin{
+.fa-linkedin,.fa-solid{
   color: white;
 }
 
 .contact-title{
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.prototype{
+  color: #1F2041;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.social{
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 

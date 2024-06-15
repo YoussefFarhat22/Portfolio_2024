@@ -12,3 +12,4 @@ menu.addEventListener("click", () => {
     menu.innerHTML = `<i class="fa-solid fa-bars"></i>`;
   }
 });
+
