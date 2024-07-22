@@ -68,11 +68,11 @@ ul{
   
 }
 
-.logo{
+/* .logo{
   font-size: 1.7rem;
   font-weight: bold;
   
-}
+} */
  
 .nav-links{
   display: flex;
@@ -301,6 +301,14 @@ line-height: 1.2;
   gap: 15px;
 }
 
+.logo{
+font-size: 12px;
+}
+
+.logo-bold{
+  font-weight: 700;
+}
+
 .social a {
   color: white;
 }
@@ -387,6 +395,8 @@ line-height: 1.2;
   .logo{
     margin-top: .7rem;
   }
+
+
 
   .intro-container{
     flex-direction: column-reverse;
